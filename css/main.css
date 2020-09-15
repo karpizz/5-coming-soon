@@ -1,0 +1,55 @@
+.bg-blue {
+    background-color: aquamarine;
+}
+
+.bg-top {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.container {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.top {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+}
+
+.row {
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
+}
+
+.left-col {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.right-col {
+    display: inline-block;
+    float: right;
+    width: 40%;
+}
+
+.socials {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.copyrights {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+}
+
+
+
