@@ -1,0 +1,35 @@
+.godown {
+    display: inline-block;
+}
+
+.arrow {
+    width: 15px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.arrow span {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.godown:hover .arrow span{
+        animation: move-wheel 1s linear infinite;
+}
+
+@keyframes move-wheel {
+    0% {
+        opacity: 0;
+        transform: translateY(-1px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(14px);
+    }
+}

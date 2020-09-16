@@ -3,7 +3,7 @@
 }
 
 .hero-bg {
-    background-image: url(../img/bg-hero.jpg);
+    background-image: url(../img/top.png);
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: bottom center;
@@ -15,33 +15,432 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-    .hero-row {
-        display: inline-block;
+
+.hero-row {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    text-align: center;
+}
+
+.hero-row img {
+    margin: 0 0 30px 0;
+}
+
+.hero-row h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.hero-row p {
+    width: 50%;
+    font-size: 12px;
+    display: inline-block;
+    color: grey;
+}
+
+.hero-row li {
+    display: inline;
+    color: white;
+}
+
+.skaiciai {
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    font-size: 34px;
+    word-spacing: 30px;
+}
+
+.po_skaiciais {
+    font-size: 12px;
+    margin: 0 0 30px 0;
+    word-spacing: 40px;
+}
+
+#emailsub {
+    border: none;
+    border-bottom: palegoldenrod 1px solid;
+    width: 50%;
+    background: transparent;
+    line-height: 30px;
+}
+
+#emailsub::placeholder {
+    color: white;
+    font-size: 10px;
+}
+
+#sub {
+    margin: 15px 0;
+    background-color: #EA1E63;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.row {
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
+}
+
+.left-column {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.left-column h2 {
+    /* margin: 40px 0 10px 0; */
+    font-size: 22px;
+}
+
+.left-column p {
+    margin: 20px 0 10px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.loading-bar span {
+    float: right;
+}
+
+.progress-bar-1 {
+    width: 100%;
+    height: 6px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress-bar-1::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 6px;
+    min-width: 0;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
+}
+
+.progress-bar-1::after {
+    content: "";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 6px;
+    min-width: 0;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-name: .progress-bar-1;
+}
+
+.progress-bar-1::after {
+    animation-name: progress-bar-1;
+}
+
+@keyframes progress-bar-1 {
+    to {
+        width: 90%;
+    }
+}
+
+.progress-bar-2 {
+    width: 100%;
+    height: 6px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress-bar-2::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 6px;
+    min-width: 0;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
+}
+
+.progress-bar-2::after {
+    content: "";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 6px;
+    min-width: 0;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-name: .progress-bar-2;
+}
+
+.progress-bar-2::after {
+    animation-name: progress-bar-2;
+}
+
+@keyframes progress-bar-2 {
+    to {
+        width: 86%;
+    }
+}
+
+.progress-bar-3 {
+    width: 100%;
+    height: 6px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress-bar-3::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 6px;
+    min-width: 0;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
+}
+
+.progress-bar-3::after {
+    content: "";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 6px;
+    min-width: 0;
+    max-width: 100%;
+    background-color: rgb(98, 195, 255);
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-name: .progress-bar-3;
+}
+
+.progress-bar-3::after {
+    animation-name: progress-bar-3;
+}
+
+@keyframes progress-bar-3 {
+    to {
+        width: 86%;
+    }
+}
+
+.right-column {
+    display: inline-block;
+    width: 40%;
+    float: right;
+}
+
+.right-column h2 {
+    /* margin: 40px 0 10px 0; */
+    font-size: 22px;
+}
+
+.right-column p {
+    margin: 10px 0 25px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.right-column>form>input {
+    border: none;
+    border-bottom: palegoldenrod 1px solid;
+    line-height: 40px;
+}
+
+.right-column>form>#right-col-name {
+    margin-right: 20px;
+}
+
+#right-col-message {
+    width: 80%;
+    line-height: 90px;
+}
+
+.right-column>form>#right-col-button {
+    /* margin-bottom: 75px; */
+    margin-top: 20px;
+    margin-right: 70px;
+    float: right;
+    background-color: #EA1E63;
+    padding: 12px 15px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    line-height: 10px;
+}
+
+.bg-bottom {
+    background-color: #03A9F3;
+    padding-top: 0;
+}
+
+.socials {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+    margin: 20px 0;
+    letter-spacing: 20px;
+    font-size: 14px;
+}
+
+.footer-texts {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    text-align: center;
+}
+
+.footer-texts img {
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    width: 26px;
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+
+.logo-name {
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    width: 26px;
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+
+.footer-texts p {
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets) */
+
+@media only screen and (max-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (max-width: 1100px) {
+    .row {
+        width: 800px;
+        margin-left: calc((100% - 800px) / 2);
+    }
+}
+
+@media (max-width: 900px) {
+    .row {
         width: 600px;
         margin-left: calc((100% - 600px) / 2);
     }
-    .row {
-        display: inline-block;
-        width: 1000px;
-        margin-left: calc((100% - 1000px) / 2);
+    .left-column {
+        width: 100%;
+        margin-bottom: 60px;
     }
-        .left-column {
-            display: inline-block;
-            width: 50%;
-            float: left;
-        }
-        .right-column {
-            display: inline-block;
-            width: 40%;
-            float: right;
-        }
-        .socials {
-            display: inline-block;
-            width: 100%;
-            border-bottom: 1px solid #fff;
-        }
-        .footer-texts {
-            display: inline-block;
-            width: 600px;
-            margin-left: calc((100% - 600px) / 2);
-        }
+    .right-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .hero-row,
+    .row,
+    .footer-texts {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+        /* text-align: center; */
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 0 20px;
+    }
+    .hero-row,
+    .row,
+    .footer-texts {
+        width: 100%;
+        margin-left: 0;
+        /* text-align: center; */
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .left-column {
+        width: 100%;
+        display: block;
+        float: left;
+        padding: 20px;
+    }
+    .right-column {
+        width: 100%;
+        display: block;
+        float: left;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .left-column {
+        width: 100%;
+        display: block;
+        float: left;
+        padding: 20px;
+    }
+    .right-column {
+        width: 100%;
+        display: block;
+        float: left;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .left-column {
+        width: 100%;
+        display: block;
+        float: left;
+        padding: 20px;
+    }
+    .right-column {
+        width: 100%;
+        display: block;
+        float: left;
+        padding: 20px;
+    }
+}
