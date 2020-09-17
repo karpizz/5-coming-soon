@@ -20,25 +20,9 @@
     min-width: 0;
     max-width: 100%;
     background-color: rgb(98, 195, 255);
-}
-
-.progress-bar-1::after {
-    content: "";
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 0;
-    height: 6px;
-    min-width: 0;
-    max-width: 100%;
-    background-color: rgb(98, 195, 255);
-    animation-duration: .7s;
+    animation-duration: 10s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-name: progress-bar-1;
-}
-
-.progress-bar-1::after {
     animation-name: progress-bar-1;
 }
 
@@ -66,25 +50,9 @@
     min-width: 0;
     max-width: 100%;
     background-color: rgb(98, 195, 255);
-}
-
-.progress-bar-2::after {
-    content: "";
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 0;
-    height: 6px;
-    min-width: 0;
-    max-width: 100%;
-    background-color: rgb(98, 195, 255);
-    animation-duration: .7s;
+    animation-duration: 10s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-name: progress-bar-2;
-}
-
-.progress-bar-2::after {
     animation-name: progress-bar-2;
 }
 
@@ -112,30 +80,14 @@
     min-width: 0;
     max-width: 100%;
     background-color: rgb(98, 195, 255);
-}
-
-.progress-bar-3::after {
-    content: "";
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 0;
-    height: 6px;
-    min-width: 0;
-    max-width: 100%;
-    background-color: rgb(98, 195, 255);
-    animation-duration: .7s;
+    animation-duration: 10s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
     animation-name: progress-bar-3;
 }
 
-.progress-bar-3::after {
-    animation-name: progress-bar-3;
-}
-
 @keyframes progress-bar-3 {
     to {
-        width: 86%;
+        width: 55%;
     }
 }

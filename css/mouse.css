@@ -21,6 +21,7 @@
 
 .godown:hover .arrow span{
         animation: move-wheel 1s linear infinite;
+        background-color: yellow;
 }
 
 @keyframes move-wheel {

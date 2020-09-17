@@ -305,12 +305,22 @@ html {
     .container {
         padding: 0 20px;
     }
+    .left-column {
+        margin-bottom: 0;
+    }
     .hero-row,
     .row,
     .footer-texts {
         width: 100%;
         margin-left: 0;
         /* text-align: center; */
+        margin-bottom: 30px;
+    }
+    /* .footer-texts {
+        margin-bottom: 60px;
+    } */
+    .gotop {
+        bottom: -45px;
     }
 }
 
