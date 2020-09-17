@@ -35,7 +35,7 @@
     animation-duration: .7s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-name: .progress-bar-1;
+    animation-name: progress-bar-1;
 }
 
 .progress-bar-1::after {
@@ -81,7 +81,7 @@
     animation-duration: .7s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-name: .progress-bar-2;
+    animation-name: progress-bar-2;
 }
 
 .progress-bar-2::after {
@@ -127,7 +127,7 @@
     animation-duration: .7s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-name: .progress-bar-3;
+    animation-name: progress-bar-3;
 }
 
 .progress-bar-3::after {
