@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="container bg-blue hero-bg">
+    <div class="container bg-blue hero-bg" id="scrolltop">
         <div class="hero-row">
             <img src="./img/logo.png" alt="logo">
             <h1>Coming soon</h1>
@@ -42,7 +42,7 @@
                 <input type="text" id="emailsub" placeholder="Type your email"><br>
                 <input type="button" value="Subscribe now" name="subscribe" id="sub">
             </form>
-            <a href="#" class="godown">
+            <a href="#scrolldown" class="godown">
                 <div class="arrow">
                     <span></span>
                 </div>
@@ -72,15 +72,14 @@
                     sunt?</p>
                 <form action="#">
                     <input type="text" id="right-col-name" placeholder="Name">
-                    <input type="email" placeholder="Email"><br><br>
-                    <input type="text" id="right-col-message" placeholder="Message"> <br><br>
-                    <input type="button" id="right-col-button" value="Send Message">
+                    <input type="email" id="right-col-email" placeholder="Email">
+                    <input type="text" id="right-col-message" placeholder="Message">                    <input type="button" id="right-col-button" value="Send Message">
                 </form>
-            </div>
+            </div> <span><a href="#scrolltop" class="gotop">&#10094</a></span>
         </div>
     </main>
     <footer class="container bg-bottom">
-        <div class="row">
+        <div class="row" id="scrolldown"> 
             <div class="socials">
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
